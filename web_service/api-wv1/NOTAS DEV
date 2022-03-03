@@ -1,0 +1,34 @@
+* CREAR PACKAGE
+    npm init -y
+
+* INSTALAR EXPRESS
+    npm install express
+
+* INSTALAR NODEMON
+    npm install --save-dev nodemon
+
+* MODIFICAR EN PACKAGE.JSON P/CORRER CON NODEMON
+    "main": "server.js",
+    "scripts": {
+    "start": "nodemon server.js"
+  }
+
+* EJECUTAR SERVIDOR *****
+    npm run start
+
+* INSTALAR LIBRERIA DE MYSQL
+    npm install mysql
+
+* INSTALAR DEPENDENCIAS DE MYSQL
+    npm i mysql express-myconnection
+
+* AGREGAR METODOS EN SERVER.JS
+
+* AGREGAR METODOS EN ROUTES.JS
+
+* EJEMPLO PROBANDO API DESDE POSTMAN
+    https://abi.gitbook.io/net-core/4.-creando-tu-primer-servicio/4.4-probando-tus-servicios-con-postman
+    
+* TUTORIAL INICIAL API-REST
+    https://www.youtube.com/watch?v=OWukxSRtr-A
+

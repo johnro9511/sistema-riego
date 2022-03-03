@@ -26,8 +26,8 @@
                     </div> 
                 </div>
                 <!-- ./col -->
-                <div class="col-lg-3 col-xs-6">
-                    <!-- small box -->
+                <!-- <div class="col-lg-3 col-xs-6">
+                    <!-- small box ->
                     <div class="small-box bg-green">
                         <div class="inner">
                             <h3><?php echo $observacion?></h3>
@@ -38,7 +38,7 @@
                         </div>
                           <a href="<?php echo base_url();?>mantenimiento/observacion" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
-                </div>
+                </div> -->
                 <!-- ./col -->
                 <div class="col-lg-3 col-xs-6">
                     <!-- small box -->
@@ -67,23 +67,24 @@
                         <a href="<?php echo base_url();?>mantenimiento/zona" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-green">
+                        <div class="inner">
+                            <h3><?php echo $observacion?></h3>
+                            <p>ACCIONES</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                          <a href="<?php echo base_url();?>acciones.php" class="small-box-footer" target="_blank">Más información <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
                 <!-- ./col -->
             </div>
             <!-- /.row -->
 
                 <div class="row">
-                    <div class="col-md-12">
-                     <!-- <div class="box">
-                          <div class="box-header with-border">
-                              <h3 class="box-title">EXPORTAR DATOS AL MOVIL</h3>
-                          </div>
-                          <!-- /.box-header -->
-                          <!--<div class="box-body">
-                              <center><button class="btn btn-primary btn-flat btn-sincro"><span class="fa fa-mobile" style="font-size:20px"></span> Exportar</button>
-                              </center>
-                          </div> -->
-                          <!-- ./box-body -->
-                      </div>
                       <!-- /.box -->
                         <div class="box">
                             <div class="box-header with-border">
